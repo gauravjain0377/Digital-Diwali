@@ -42,7 +42,7 @@ const MusicToggle = () => {
       </Button>
       {/* Audio element - in production, add src with actual music file */}
       <audio ref={audioRef} loop>
-        <source src="/public/Sound.mp3" type="audio/mpeg" />
+        <source src="/Sound.mp3" type="audio/mpeg" />
       </audio>
     </div>
   );
